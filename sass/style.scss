@@ -1,0 +1,76 @@
+$mainFont: Arimo, sans-serif;
+
+// Header section
+#header{
+	>.row{
+		height: 611px;
+		background-image: url('../img/banner.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		>.container{
+			>:first-child{
+				>h1{
+					text-align: center;
+					color: white;
+					text-transform: uppercase;
+					font-family: $mainFont;
+					font-weight: bold;
+					font-size: 75px;
+					margin-top: 180px;
+				}
+				>p{
+					text-align: center;
+					font-family: $mainFont;
+					color: #958F88;
+					text-transform: uppercase;
+					margin-top: -15px;
+					font-weight: bold;
+					letter-spacing: 1px;
+				}
+			}
+			>:last-child{
+				>.btn-group{
+					margin-top: 45px;
+					>button{
+						height: 60px;
+						border: 2px solid white;
+						border-radius: 30px;
+						background: none;
+						color: white;
+						text-transform: uppercase;
+						font-family: $mainFont;
+						padding: 0 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Main section
+#main{
+	.container{
+
+	}
+}
+
+// Gallery section
+#gallery{
+	.container{
+
+	}
+}
+
+// Navigation bottom section
+#navigationBottom{
+	.container{
+
+	}
+}
+
+// Copyright and Social section
+#copyrightAndSocial{
+	.container{
+
+	}
+}
