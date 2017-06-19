@@ -8,7 +8,7 @@
     text-align: center;
     color: white;
     text-transform: uppercase;
-    font-family: Arimo, sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: bold;
     font-size: 75px;
     margin-top: 180px; }
@@ -31,7 +31,7 @@
         background: none;
         color: white;
         text-transform: uppercase;
-        font-family: Arimo, sans-serif;
+        font-family: 'Pangolin', cursive;
         padding: 0 22px;
         transition: all 0.3s ease; }
       #header > .row > .container > :last-child > .btn-group > button:hover {
@@ -48,12 +48,12 @@
       text-transform: uppercase;
       font-weight: bold;
       color: #4c4c4c;
-      font-family: Arimo, sans-serif;
+      font-family: "Poppins", sans-serif;
       margin-bottom: 0; }
     #main > .container > .col-md-7 > :first-child > p {
       font-size: 1.40em;
       margin-top: 15px;
-      font-family: Arimo, sans-serif;
+      font-family: 'Pangolin', cursive;
       color: #4c4c4c; }
     #main > .container > .col-md-7 > :nth-child(2) > img {
       margin-bottom: 30px;
@@ -62,10 +62,10 @@
       margin-bottom: 1em;
       color: #4c4c4c;
       box-sizing: border-box;
-      font-family: Arimo, sans-serif;
+      font-family: 'Pangolin', cursive;
       font-size: 11pt; }
     #main > .container > .col-md-4 h3 {
-      font-family: Arimo, sans-serif;
+      font-family: "Poppins", sans-serif;
       font-size: 1.4em;
       padding-bottom: 2em;
       font-weight: bold; }
@@ -75,7 +75,7 @@
       margin-top: 10px;
       margin-bottom: 1em;
       padding-bottom: 1em;
-      font-family: Arimo, sans-serif;
+      font-family: 'Pangolin', cursive;
       color: #C5C5C5; }
     #main > .container > .col-md-4 .row > .row .col-md-3 img {
       display: inline-block; }
@@ -83,7 +83,7 @@
       margin-bottom: 1em;
       font-size: 11pt;
       color: #4c4c4c;
-      font-family: Arimo, sans-serif;
+      font-family: 'Pangolin', cursive;
       display: inline-block;
       line-height: 1.75;
       letter-spacing: 1px; }
