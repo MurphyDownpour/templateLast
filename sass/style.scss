@@ -7,6 +7,7 @@ $mainFont: Arimo, sans-serif;
 		background-image: url('../img/banner.jpg');
 		background-repeat: no-repeat;
 		background-size: cover;
+		background-position-y: -100px;
 		>.container{
 			>:first-child{
 				>h1{
@@ -20,8 +21,8 @@ $mainFont: Arimo, sans-serif;
 				}
 				>p{
 					text-align: center;
-					font-family: $mainFont;
-					color: #958F88;
+					font-family: 'Pangolin', cursive;
+					color: white;
 					text-transform: uppercase;
 					margin-top: -15px;
 					font-weight: bold;
@@ -29,6 +30,7 @@ $mainFont: Arimo, sans-serif;
 				}
 			}
 			>:last-child{
+				text-align: center;
 				>.btn-group{
 					margin-top: 45px;
 					>button{
@@ -40,6 +42,11 @@ $mainFont: Arimo, sans-serif;
 						text-transform: uppercase;
 						font-family: $mainFont;
 						padding: 0 22px;
+						transition: all 0.3s ease;
+					}
+					>button:hover{
+						background-color: white;
+						color: black;
 					}
 				}
 			}
@@ -49,15 +56,96 @@ $mainFont: Arimo, sans-serif;
 
 // Main section
 #main{
-	.container{
-
+	height: 760px;
+	margin-top: 70px;
+	>.container{
+		height: 80%;
+		>.col-md-7{
+			>:first-child{
+				>h2{
+					font-size: 3em;
+					text-transform: uppercase;
+					font-weight: bold;
+					color: #4c4c4c;
+					font-family: $mainFont;
+					margin-bottom: 0;
+				}
+				>p{
+					font-size: 1.40em;
+					margin-top: 15px;
+					font-family: $mainFont;
+					color: #4c4c4c;
+				}
+			}
+			>:nth-child(2){
+				>img{
+					margin-bottom: 30px;
+					width: 100%;
+				}
+			}
+			>:last-child{
+				>p{
+					margin-bottom: 1em;
+					color: #4c4c4c;
+					box-sizing: border-box;
+					font-family: $mainFont;
+					font-size: 11pt;
+				}
+			}
+		}
+		>.col-md-4{
+			h3{
+				font-family: $mainFont;
+				font-size: 1.4em;
+				padding-bottom: 2em;
+				font-weight: bold;
+			}
+			.row{
+				p{
+					letter-spacing: 1px;
+					font-size: 8pt;
+					margin-top: 10px;
+					margin-bottom: 1em;
+					padding-bottom: 1em;
+					font-family: $mainFont;
+					color: #C5C5C5;
+				}
+				>.row{
+					.col-md-3{
+						img{
+							display: inline-block;
+						}
+					}
+					
+					.col-md-9{
+						>p{
+							margin-bottom: 1em;
+							font-size: 11pt;
+							color: #4c4c4c;
+							font-family: $mainFont;
+							display: inline-block;
+							line-height: 1.75;
+							letter-spacing: 1px;
+						}
+					}
+					
+				}
+				>#horizontalLine{
+					height: 1px;
+					background-color: gray;
+					opacity: 0.2;
+				}
+			}
+		}
 	}
 }
 
 // Gallery section
 #gallery{
+	height: 655px;
+	background-color: #F2F2F2;
 	.container{
-
+		height: 80%;
 	}
 }
 

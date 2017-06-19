@@ -2,7 +2,8 @@
   height: 611px;
   background-image: url("../img/banner.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position-y: -100px; }
   #header > .row > .container > :first-child > h1 {
     text-align: center;
     color: white;
@@ -13,22 +14,88 @@
     margin-top: 180px; }
   #header > .row > .container > :first-child > p {
     text-align: center;
-    font-family: Arimo, sans-serif;
-    color: #958F88;
+    font-family: 'Pangolin', cursive;
+    color: white;
     text-transform: uppercase;
     margin-top: -15px;
     font-weight: bold;
     letter-spacing: 1px; }
-  #header > .row > .container > :last-child > .btn-group {
-    margin-top: 45px; }
-    #header > .row > .container > :last-child > .btn-group > button {
-      height: 60px;
-      border: 2px solid white;
-      border-radius: 30px;
-      background: none;
-      color: white;
+  #header > .row > .container > :last-child {
+    text-align: center; }
+    #header > .row > .container > :last-child > .btn-group {
+      margin-top: 45px; }
+      #header > .row > .container > :last-child > .btn-group > button {
+        height: 60px;
+        border: 2px solid white;
+        border-radius: 30px;
+        background: none;
+        color: white;
+        text-transform: uppercase;
+        font-family: Arimo, sans-serif;
+        padding: 0 22px;
+        transition: all 0.3s ease; }
+      #header > .row > .container > :last-child > .btn-group > button:hover {
+        background-color: white;
+        color: black; }
+
+#main {
+  height: 760px;
+  margin-top: 70px; }
+  #main > .container {
+    height: 80%; }
+    #main > .container > .col-md-7 > :first-child > h2 {
+      font-size: 3em;
       text-transform: uppercase;
+      font-weight: bold;
+      color: #4c4c4c;
       font-family: Arimo, sans-serif;
-      padding: 0 22px; }
+      margin-bottom: 0; }
+    #main > .container > .col-md-7 > :first-child > p {
+      font-size: 1.40em;
+      margin-top: 15px;
+      font-family: Arimo, sans-serif;
+      color: #4c4c4c; }
+    #main > .container > .col-md-7 > :nth-child(2) > img {
+      margin-bottom: 30px;
+      width: 100%; }
+    #main > .container > .col-md-7 > :last-child > p {
+      margin-bottom: 1em;
+      color: #4c4c4c;
+      box-sizing: border-box;
+      font-family: Arimo, sans-serif;
+      font-size: 11pt; }
+    #main > .container > .col-md-4 h3 {
+      font-family: Arimo, sans-serif;
+      font-size: 1.4em;
+      padding-bottom: 2em;
+      font-weight: bold; }
+    #main > .container > .col-md-4 .row p {
+      letter-spacing: 1px;
+      font-size: 8pt;
+      margin-top: 10px;
+      margin-bottom: 1em;
+      padding-bottom: 1em;
+      font-family: Arimo, sans-serif;
+      color: #C5C5C5; }
+    #main > .container > .col-md-4 .row > .row .col-md-3 img {
+      display: inline-block; }
+    #main > .container > .col-md-4 .row > .row .col-md-9 > p {
+      margin-bottom: 1em;
+      font-size: 11pt;
+      color: #4c4c4c;
+      font-family: Arimo, sans-serif;
+      display: inline-block;
+      line-height: 1.75;
+      letter-spacing: 1px; }
+    #main > .container > .col-md-4 .row > #horizontalLine {
+      height: 1px;
+      background-color: gray;
+      opacity: 0.2; }
+
+#gallery {
+  height: 655px;
+  background-color: #F2F2F2; }
+  #gallery .container {
+    height: 80%; }
 
 /*# sourceMappingURL=style.css.map */
