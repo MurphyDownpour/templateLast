@@ -37,7 +37,7 @@ $mainFont: 'Poppins', sans-serif;
 					letter-spacing: 1px;
 				}
 			}
-			>:last-child{
+			>:nth-child(2){
 				text-align: center;
 				>.btn-group{
 					margin-top: 45px;
@@ -55,6 +55,39 @@ $mainFont: 'Poppins', sans-serif;
 					>button:hover{
 						background-color: white;
 						color: black;
+					}
+				}
+			}
+			>:last-child{
+				text-align: center;
+				margin-top: 45px;
+				>.col-md-12{
+					>form{
+						>input{
+							width: 250px;
+						    height: 42px;
+						    padding-left: 15px;
+						    border-radius: 42px;
+						    border: 2px solid #324b4e;
+						    background: #F9F0DA;
+						    outline: none;
+						    transition: .3s linear;
+						    font-family: 'Pangolin', cursive;
+						}
+						>input:focus{
+							width: 300px;
+						}
+						>button{
+							width: 42px;
+						  	height: 42px;
+						  	background: none;
+						  	border: none;
+						}
+						>button:before{
+							content: "\f002";
+  							font-family: FontAwesome;
+  							color: white;
+						}
 					}
 				}
 			}
@@ -220,6 +253,10 @@ $mainFont: 'Poppins', sans-serif;
 								font-family: $mainFont;
 							}
 						}
+						li:before{
+							content: url(../img/cat-arrow.png);
+							margin-right: 5px;
+						}
 						hr{
 							background-color: white;
 							height: 0.1px;
@@ -267,10 +304,10 @@ $mainFont: 'Poppins', sans-serif;
 					font-size: 18px;
 					margin-right: 10px;
 					cursor: pointer;
-					transition: all .3s ease;
+					transition: all 1s ease;
 				}
 				i:hover{
-					transform: scale(1.5);
+					transform: rotateY(360deg);
 				}
 			}
 		}

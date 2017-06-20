@@ -26,11 +26,11 @@
     margin-top: -15px;
     font-weight: bold;
     letter-spacing: 1px; }
-  #header > .row > .container > :last-child {
+  #header > .row > .container > :nth-child(2) {
     text-align: center; }
-    #header > .row > .container > :last-child > .btn-group {
+    #header > .row > .container > :nth-child(2) > .btn-group {
       margin-top: 45px; }
-      #header > .row > .container > :last-child > .btn-group > button {
+      #header > .row > .container > :nth-child(2) > .btn-group > button {
         height: 60px;
         border: 2px solid white;
         border-radius: 30px;
@@ -40,9 +40,33 @@
         font-family: 'Pangolin', cursive;
         padding: 0 22px;
         transition: all 0.3s ease; }
-      #header > .row > .container > :last-child > .btn-group > button:hover {
+      #header > .row > .container > :nth-child(2) > .btn-group > button:hover {
         background-color: white;
         color: black; }
+  #header > .row > .container > :last-child {
+    text-align: center;
+    margin-top: 45px; }
+    #header > .row > .container > :last-child > .col-md-12 > form > input {
+      width: 250px;
+      height: 42px;
+      padding-left: 15px;
+      border-radius: 42px;
+      border: 2px solid #324b4e;
+      background: #F9F0DA;
+      outline: none;
+      transition: .3s linear;
+      font-family: 'Pangolin', cursive; }
+    #header > .row > .container > :last-child > .col-md-12 > form > input:focus {
+      width: 300px; }
+    #header > .row > .container > :last-child > .col-md-12 > form > button {
+      width: 42px;
+      height: 42px;
+      background: none;
+      border: none; }
+    #header > .row > .container > :last-child > .col-md-12 > form > button:before {
+      content: "\f002";
+      font-family: FontAwesome;
+      color: white; }
 
 #main {
   margin-top: 70px; }
@@ -142,6 +166,9 @@
         #navigationBottom .row > .container > .row > .col-md-4 ul li a {
           color: #898989;
           font-family: "Poppins", sans-serif; }
+      #navigationBottom .row > .container > .row > .col-md-4 ul li:before {
+        content: url(../img/cat-arrow.png);
+        margin-right: 5px; }
       #navigationBottom .row > .container > .row > .col-md-4 ul hr {
         background-color: white;
         height: 0.1px;
@@ -176,8 +203,8 @@
         font-size: 18px;
         margin-right: 10px;
         cursor: pointer;
-        transition: all .3s ease; }
+        transition: all 1s ease; }
       #copyrightAndSocial .row .container > :last-child i:hover {
-        transform: scale(1.5); }
+        transform: rotateY(360deg); }
 
 /*# sourceMappingURL=style.css.map */
