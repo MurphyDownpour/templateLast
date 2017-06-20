@@ -1,9 +1,9 @@
 #header > .row {
-  height: 611px;
   background-image: url("../img/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -100px; }
+  background-position-y: -100px;
+  padding-bottom: 120px; }
   #header > .row > .container > :first-child > h1 {
     text-align: center;
     color: white;
@@ -39,66 +39,62 @@
         color: black; }
 
 #main {
-  height: 680px;
   margin-top: 70px; }
-  #main > .container {
-    height: 80%; }
-    #main > .container > .col-md-7 > :first-child > h2 {
-      font-size: 3em;
-      text-transform: uppercase;
-      font-weight: bold;
-      color: #4c4c4c;
-      font-family: "Poppins", sans-serif;
-      margin-bottom: 0; }
-    #main > .container > .col-md-7 > :first-child > p {
-      font-size: 1.40em;
-      margin-top: 15px;
-      font-family: 'Pangolin', cursive;
-      color: #4c4c4c; }
-    #main > .container > .col-md-7 > :nth-child(2) > img {
-      margin-bottom: 30px;
-      width: 100%; }
-    #main > .container > .col-md-7 > :last-child > p {
-      margin-bottom: 1em;
-      color: #4c4c4c;
-      box-sizing: border-box;
-      font-family: 'Pangolin', cursive;
-      font-size: 11pt; }
-    #main > .container > .col-md-4 h3 {
-      font-family: "Poppins", sans-serif;
-      font-size: 1.4em;
-      padding-bottom: 2em;
-      font-weight: bold; }
-    #main > .container > .col-md-4 .row p {
-      letter-spacing: 1px;
-      font-size: 8pt;
-      margin-bottom: 1em;
-      padding-bottom: 1em;
-      font-family: 'Pangolin', cursive;
-      color: #C5C5C5; }
-    #main > .container > .col-md-4 .row > .row .col-md-3 img {
-      display: inline-block; }
-    #main > .container > .col-md-4 .row > .row .col-md-9 > p {
-      margin-bottom: 1em;
-      font-size: 11pt;
-      color: #4c4c4c;
-      font-family: 'Pangolin', cursive;
-      display: inline-block;
-      line-height: 1.75;
-      letter-spacing: 1px; }
-    #main > .container > .col-md-4 .row > #horizontalLine {
-      height: 1px;
-      background-color: gray;
-      opacity: 0.2;
-      margin-bottom: 10px; }
+  #main > .container > .col-md-7 > :first-child > h2 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4c4c4c;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 0; }
+  #main > .container > .col-md-7 > :first-child > p {
+    font-size: 1.40em;
+    margin-top: 15px;
+    font-family: 'Pangolin', cursive;
+    color: #4c4c4c; }
+  #main > .container > .col-md-7 > :nth-child(2) > img {
+    margin-bottom: 30px;
+    width: 100%; }
+  #main > .container > .col-md-7 > :last-child > p {
+    margin-bottom: 1em;
+    color: #4c4c4c;
+    box-sizing: border-box;
+    font-family: 'Pangolin', cursive;
+    font-size: 11pt; }
+  #main > .container > .col-md-4 h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4em;
+    padding-bottom: 2em;
+    font-weight: bold; }
+  #main > .container > .col-md-4 .row p {
+    letter-spacing: 1px;
+    font-size: 8pt;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    font-family: 'Pangolin', cursive;
+    color: #C5C5C5; }
+  #main > .container > .col-md-4 .row > .row .col-md-3 img {
+    display: inline-block; }
+  #main > .container > .col-md-4 .row > .row .col-md-9 > p {
+    margin-bottom: 1em;
+    font-size: 11pt;
+    color: #4c4c4c;
+    font-family: 'Pangolin', cursive;
+    display: inline-block;
+    line-height: 1.75;
+    letter-spacing: 1px; }
+  #main > .container > .col-md-4 .row > #horizontalLine {
+    height: 1px;
+    background-color: gray;
+    opacity: 0.2;
+    margin-bottom: 10px; }
 
-#gallery {
-  height: 620px; }
-  #gallery > .row {
-    background-color: #F2F2F2;
-    height: 100%; }
-    #gallery > .row > .container > .row {
-      margin-top: 110px; }
+#gallery > .row {
+  background-color: #F2F2F2; }
+  #gallery > .row > .container > .row {
+    margin-top: 110px; }
+    #gallery > .row > .container > .row > .col-md-4 {
+      padding-bottom: 55px; }
       #gallery > .row > .container > .row > .col-md-4 h3 {
         font-family: "Poppins", sans-serif;
         font-size: 1.4em;
@@ -121,6 +117,7 @@
         padding: 0.9em 1.5em;
         font-size: 1.1em;
         border: none;
+        margin-top: 35px;
         transition: all .3s ease; }
       #gallery > .row > .container > .row > .col-md-4 button:hover {
         background-color: #d93d19; }
