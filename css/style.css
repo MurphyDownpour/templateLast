@@ -1,3 +1,9 @@
+#horizontalLine {
+  height: 1px;
+  background-color: gray;
+  opacity: 0.2;
+  margin-bottom: 10px; }
+
 #header > .row {
   background-image: url("../img/banner.jpg");
   background-repeat: no-repeat;
@@ -83,11 +89,6 @@
     display: inline-block;
     line-height: 1.75;
     letter-spacing: 1px; }
-  #main > .container > .col-md-4 .row > #horizontalLine {
-    height: 1px;
-    background-color: gray;
-    opacity: 0.2;
-    margin-bottom: 10px; }
 
 #gallery > .row {
   background-color: #F2F2F2; }
@@ -121,5 +122,62 @@
         transition: all .3s ease; }
       #gallery > .row > .container > .row > .col-md-4 button:hover {
         background-color: #d93d19; }
+
+#navigationBottom .row {
+  background-color: #1D1D1D; }
+  #navigationBottom .row > .container > .row {
+    margin-top: 30px;
+    padding-bottom: 50px; }
+    #navigationBottom .row > .container > .row > .col-md-4 h3 {
+      font-family: "Poppins", sans-serif;
+      font-size: 1.4em;
+      margin-bottom: 2em;
+      font-weight: bold;
+      color: white; }
+    #navigationBottom .row > .container > .row > .col-md-4 ul {
+      list-style: none;
+      padding: 0; }
+      #navigationBottom .row > .container > .row > .col-md-4 ul li {
+        padding: 0.60em 0; }
+        #navigationBottom .row > .container > .row > .col-md-4 ul li a {
+          color: #898989;
+          font-family: "Poppins", sans-serif; }
+      #navigationBottom .row > .container > .row > .col-md-4 ul hr {
+        background-color: white;
+        height: 0.1px;
+        margin: 0;
+        opacity: 0.2; }
+
+#copyrightAndSocial {
+  height: 100px; }
+  #copyrightAndSocial .row {
+    height: 100%;
+    background-color: #141414; }
+    #copyrightAndSocial .row .container > :first-child {
+      text-align: center;
+      margin-top: 20px; }
+      #copyrightAndSocial .row .container > :first-child > :first-child {
+        color: #313131;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px; }
+      #copyrightAndSocial .row .container > :first-child > :last-child {
+        color: #4E4E4E;
+        font-family: 'Pangolin', cursive;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        cursor: pointer; }
+      #copyrightAndSocial .row .container > :first-child > :last-child:hover {
+        color: white;
+        letter-spacing: 1px; }
+    #copyrightAndSocial .row .container > :last-child {
+      text-align: center;
+      margin-top: 20px; }
+      #copyrightAndSocial .row .container > :last-child i {
+        font-size: 18px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all .3s ease; }
+      #copyrightAndSocial .row .container > :last-child i:hover {
+        transform: scale(1.5); }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,10 @@
 $mainFont: 'Poppins', sans-serif;
+#horizontalLine{
+	height: 1px;
+	background-color: gray;
+	opacity: 0.2;
+	margin-bottom: 10px;
+}
 
 // Header section
 #header{
@@ -132,12 +138,6 @@ $mainFont: 'Poppins', sans-serif;
 					}
 					
 				}
-				>#horizontalLine{
-					height: 1px;
-					background-color: gray;
-					opacity: 0.2;
-					margin-bottom: 10px;
-				}
 			}
 		}
 	}
@@ -193,14 +193,86 @@ $mainFont: 'Poppins', sans-serif;
 
 // Navigation bottom section
 #navigationBottom{
-	.container{
+	// height: 400px;
+	.row{
+		// height: 100%;
+		background-color: #1D1D1D;
 
+		>.container{
+			>.row{
+				margin-top: 30px;
+				padding-bottom: 50px;
+				>.col-md-4{
+					h3{
+						font-family: $mainFont;
+						font-size: 1.4em;
+						margin-bottom: 2em;
+						font-weight: bold;
+						color: white;
+					}
+					ul{
+						list-style: none;
+						padding: 0;
+						li{
+							padding: 0.60em 0;
+							a{
+								color: #898989;
+								font-family: $mainFont;
+							}
+						}
+						hr{
+							background-color: white;
+							height: 0.1px;
+							margin: 0;
+							opacity: 0.2;
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
 // Copyright and Social section
 #copyrightAndSocial{
-	.container{
-
+	height: 100px;
+	.row{
+		height: 100%;
+		background-color: #141414;
+		.container{
+			>:first-child{
+				text-align: center;
+				margin-top: 20px;
+				>:first-child{
+					color: #313131;
+					font-family: $mainFont;
+					font-size: 18px;
+				}
+				>:last-child{
+					color: #4E4E4E;
+					font-family: 'Pangolin', cursive;
+					font-size: 18px;
+					transition: all 0.3s ease;
+					cursor: pointer;
+				}
+				>:last-child:hover{
+					color: white;
+					letter-spacing: 1px;
+				}
+			}
+			>:last-child{
+				text-align: center;
+				margin-top: 20px;
+				i{
+					font-size: 18px;
+					margin-right: 10px;
+					cursor: pointer;
+					transition: all .3s ease;
+				}
+				i:hover{
+					transform: scale(1.5);
+				}
+			}
+		}
 	}
 }
